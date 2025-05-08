@@ -146,8 +146,8 @@ footer {
 
 .footer-container {
     display: flex;
-    gap: 50px;
-    justify-content: space-around;
+    /* gap: 50px; */
+    justify-content: space-evenly;
     color:rgb(182, 192, 200);
 }
 
