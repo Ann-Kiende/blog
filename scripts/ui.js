@@ -47,6 +47,9 @@ if(blogForm) {
 
 
 // CONTACT PAGE
+
+emailPattern = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/
+
 const contactForm = document.getElementById('contact-form')
 if(contactForm) {
     const nameForm = document.getElementById('name')
@@ -76,6 +79,9 @@ if(contactForm) {
             hasError = true;
         } else if(emailForm.value.trim() == '') {
             emailError.textContent = 'Email missing'
+            hasError = true;
+        }else if(!emailPattern.test(emailForm.value.trim())) {
+            emailError.textContent = 'Invalid email format'
             hasError = true;
         }else if(messageForm.value.trim() == '') {
             messageError.textContent = 'Message missing'
