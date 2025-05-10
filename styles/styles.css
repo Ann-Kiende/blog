@@ -45,7 +45,7 @@ header {
     color: aliceblue;
 }
 
-#active {
+a.active {
     color: aliceblue;
     /* background-color: #63c7f1; */
 }
