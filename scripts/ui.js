@@ -8,7 +8,7 @@ if(blogForm) {
     const authorError = document.getElementById('author-error')
     const titleError = document.getElementById('title-error')
     const contentError = document.getElementById('content-error')
-    const successMessage = document.getElementById('success-message')
+    const successMessage = document.getElementById('blog-success-message')
     
     blogForm.addEventListener('submit', (event) => {
         event.preventDefault() //Prevent form from submitting and page loading
