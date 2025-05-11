@@ -48,7 +48,7 @@ if(blogForm) {
 
 // CONTACT PAGE
 
-emailPattern = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/
+const emailPattern = /^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/
 
 const contactForm = document.getElementById('contact-form')
 if(contactForm) {
