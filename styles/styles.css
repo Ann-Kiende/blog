@@ -134,7 +134,7 @@ main {
     transition: opacity 0.5s ease-in-out;
 }
 
-.success-message.visible {
+.visible {
     display: block;
     opacity: 1;
 }
